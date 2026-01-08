@@ -38,3 +38,8 @@ A fixed test destination wallet is used for consistent demonstration purposes.
 ### 2. Start the Streamlit frontend
 - Open a **new** terminal
 - Run: `streamlit run frontend.py`
+
+## Authors
+- [Loke Ann Chi](https://github.com/annchiloke)
+- [Lim Ze Yan](https://github.com/zyyy22)
+- [Kwek Jia Qi](https://github.com/JiaQiK05)
