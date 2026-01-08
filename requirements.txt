@@ -1,0 +1,6 @@
+flask==3.1.2
+pillow==12.1.0
+pyzbar==0.1.9
+requests==2.32.5
+streamlit==1.52.2
+xrpl-py==4.4.0
