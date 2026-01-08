@@ -22,6 +22,22 @@ The backend generates a sender wallet automatically on startup for demo payments
 A fixed test destination wallet is used for consistent demonstration purposes.
 - Generated using `create_wallet.py`
 
+## XRPL Features
+
+### 1. Cross-Country Payments
+- While QR payment systems differ by country, XRPL provides a neutral, borderless ledger for value transfer.
+- This demo simulates cross-country QR payments by routing country-specific QR formats to a unified backend.
+- QR formats are detected via `detect_qr_type`, while settlement is performed via `send_xrpl_payment` (see `backend.py`).
+
+### 2. Native XRP Payments
+- Payments are executed as XRPL Payment transactions on the XRPL Testnet.
+- Transactions are signed, submitted and validated on-ledger.
+- Each payment returns a verifiable transaction hash and explorer link.
+
+### 3. XRPL Testnet and Wallet Creation
+- Sender wallets are generated and funded using the XRPL Testnet faucet.
+- Enables safe testing without real funds.
+
 ## Setup
 
 ### 1. Create a virtual environment
